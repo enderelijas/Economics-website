@@ -75,7 +75,7 @@
 
 .product:hover {
     transform: scale(1.025);
-    filter: brightness(50%);
+    filter: brightness(80%);
 }
 
 .product h2, p {
