@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Enderin.co | Official Store Page</title>
 </head>
-<body>
+<body onload="fakeAlert()">
     <nav>
         <ul class="flex-center-row">
-            <li><a href="#home">Home</a></li>
+            <li><a href="#header">Home</a></li>
             <li><a href="#products">Products</a></li>
             <li><a href="#products">About</a></li>
             <li><a href="#products">Contact</a>
@@ -21,16 +22,23 @@
         <p>Sales up to 30% off</p>
     </section>
     <section id="products" class="grid-column">
-        <div class="product red">
-            <h2>Try the new Phone1</h2>
-            <p>Starting at $599</p>
+        <div class="product primary">
+            <h2 class="product-heading">Try the new Phone1</h2>
+            <p>Starting at $599!</p>
+            <img class="img-small" src="/images/phone.svg" alt="smartphone">
+            <button class="sandy-white"><a href="#">Buy Now!</a></button>
         </div>
-        <div class="product green">
-            <h2>Never miss an alert with our new Watch1</h2>
-            <p>Starting at $399</p>
+        <div class="product secondary">
+            <h2 class="product-heading">Never miss an alert with our new Watch1</h2>
+            <p>Starting at $399!</p>
+            <img class="img-small" src="/images/watch.svg" alt="watch">
+            <button class="sandy-white"><a href="#">Buy Now!</a></button>
         </div>
-        <div class="product blue grid-span-2-columns">
-            <h2>Watch quality 4K video on our latest TV1</h2>
+        <div class="product tertiary grid-span-2-columns">
+            <h2 class="product-heading">Watch quality 4K video on our latest TV1</h2>
+            <p>Coming soon!</p>
+            <img class="img-small" src="images/tv.svg" alt="tv">
+            <button class="sandy-white"><a href="#">Buy Now!</a></button>
         </div>
     </section>
 </body>
